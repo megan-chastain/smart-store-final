@@ -135,3 +135,7 @@ dtype: int64
 2025-04-23 20:39:08.482 | INFO     | __main__:main:264 - ==================================
 2025-04-23 20:39:08.482 | INFO     | __main__:main:265 - FINISHED prepare_products_data.py
 2025-04-23 20:39:08.483 | INFO     | __main__:main:266 - ==================================
+2025-04-23 21:00:34.327 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-23 21:00:34.328 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-23 21:00:34.332 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-23 21:00:34.339 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: 'store_ID'
