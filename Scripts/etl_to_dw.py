@@ -31,7 +31,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             product_id INTEGER PRIMARY KEY,
             product_name TEXT,
             category TEXT,
-            unit_price	REAL,
+            unit_price_usd	REAL,
             stock_quanity INTEGER,
             supplier TEXT
         )
@@ -42,7 +42,7 @@ def create_schema(cursor: sqlite3.Cursor) -> None:
             sale_id INTEGER PRIMARY KEY,
             customer_id INTEGER,
             product_id INTEGER,
-            sale_amount REAL,
+            sale_amount_usd REAL,
             sale_date TEXT,
             bonus_points INTEGER,
             payment_type TEXT,
